@@ -35,7 +35,7 @@ long witness(const ZZ& n, const ZZ& x)
    m = n/2;
    while (m % 2 == 0) {
       k++;
-      m /= 2;
+      m /= 2; //fkoekf
    }
 
    z = PowerMod(x, m, n); // z = x^m % n
