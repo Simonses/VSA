@@ -1,4 +1,4 @@
-#include <NTL/ZZ.h>
+#include <NTL/ZZ.h>sdlasdakd
 #include <ctime>
 #include<math.h>
 #include<fstream>
@@ -13,7 +13,7 @@ int getMilliCount(){
 	timeb tb;
 	ftime(&tb);
 	int nCount = tb.millitm + (tb.time & 0xfffff) * 1000;
-	return nCount;
+	return nCount;-
 }
 
 int getMilliSpan(int nTimeStart){
