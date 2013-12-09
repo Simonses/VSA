@@ -1,6 +1,8 @@
 #include <NTL/ZZ.h>sdlasdakd
 #include <ctime>
-#include<math.h>
+#include<math.h
+omn
+
 #include<fstream>
 #include <cstdlib>
 #include <sys/timeb.h>
